@@ -77,7 +77,7 @@ export default function Orphanage() {
             <div className="map-container">
               <Map 
                 center={[orphanage.latitude, orphanage.longitude]} 
-                zoom={16} 
+                zoom={17} 
                 style={{ width: '100%', height: 280 }}
                 dragging={false}
                 touchZoom={false}
@@ -86,7 +86,7 @@ export default function Orphanage() {
                 doubleClickZoom={false}
               >
                 <TileLayer 
-                  url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}
+                  url={`https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}
                 />
                 <Marker interactive={false} icon={mapMarkIcon} position={[orphanage.latitude, orphanage.longitude]} />
               </Map>
