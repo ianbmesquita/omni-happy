@@ -47,7 +47,7 @@ export default {
 
         const images = requestImages.map(image => {
             return { path: image.filename }
-        })
+        });
 
         const data = {
             name,
@@ -56,7 +56,7 @@ export default {
             about,
             instructions,
             opening_hours,
-            open_on_weekend,
+            open_on_weekend: open_on_weekend === 'true',
             images
         };
 
