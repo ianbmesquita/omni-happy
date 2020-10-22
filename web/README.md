@@ -3,13 +3,6 @@
 </h1>
 
 <p align="center">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/ianbmesquita/omni-happy">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/ianbmesquita/omni-happy">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ianbmesquita/omni-happy">
-  <img alt="GitHub" src="https://img.shields.io/github/license/ianbmesquita/omni-happy">
-</p>
-
-<p align="center">
   <a href="#bookmark-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#wrench-ferramentas-utilizadas">Ferramentas Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -39,6 +32,7 @@ Essa aplicação foi realizada durante a **Next Level Week 3** da [Rocketseat](h
 
 ## :wrench: Ferramentas Utilizadas
 
+- **axios** - Pacote responsável por fazer as requisições no front end.
 - **react-icons** - Pacote que possui todos os ícones de fontes para aplicações React.
 - **react-leaflet** - Biblioteca responsável por manter os mapas utilizados na aplicação.
 - **react-router-dom** - Dependência responsável por lidar com as rotas da aplicação.
